@@ -9,7 +9,7 @@ pygame.init()
 janela= pygame.display.set_mode((470,300),0,32)
 pygame.display.set_caption("Modulo Music")
 pygame.mixer.music.load("PokemonMusica1.wav")
-pygame.mixer.music.play(1)
+pygame.mixer.music.play(-1)
 
 
     
