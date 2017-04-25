@@ -2,17 +2,6 @@ import json
 from ipmom import mostra_ipmon
 from ModoBatalha import ModoBatalha
 import pickle
-import pygame
-#musica
-from pygame.locals import *
-pygame.init()
-janela= pygame.display.set_mode((470,300),0,32)
-pygame.display.set_caption("Modulo Music")
-pygame.mixer.music.load("PokemonMusica1.wav")
-pygame.mixer.music.play(-1)
-
-
-    
 
 #dados iniciais dos inspermons e de jogadores que estão jogando pela primeira vez
 
